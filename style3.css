@@ -1,0 +1,61 @@
+.bloc1
+{
+background-color: blue;
+height: 50px;
+width: 90%;
+margin:10px; 
+float:left;
+text-align: center;
+font-size:30px;
+font-family: verdana;
+}
+
+.bloc2
+{background-color: yellow;
+height: 390px;
+width: 600px;
+float:left;
+margin-left: 20px;
+text-align: center;
+margin:10px;
+border: 5px #solid #33ffff;
+border-radius: 4px;
+}
+
+.bloc3
+{
+background-color: green;
+height: 390px;
+width: 600px;
+float:left;
+margin-left: 20px;
+margin:10px;
+text-align: center;
+border-width:5px #solid #33ffff;
+}
+
+.bloc4
+{
+background-color: pink;
+height: 390px;
+width: 600px;
+float:left;
+margin-left: 20px;
+margin:10px;
+text-align: center;
+border-width: 5px #solid #33ffff;
+}
+
+.bloc5
+
+{
+background-color: blue;
+height: 50px;
+width: 90%;
+margin:10px; 
+text-align: center;
+clear:both;
+font-size: 30px;
+border-width: : 5px #solid #33ffff;
+}
+

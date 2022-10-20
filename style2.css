@@ -1,0 +1,29 @@
+.bloc1
+{
+background-color: blue;
+height: 300px;
+width: 400px;
+float:left;
+margin:10px; 
+
+}
+
+.bloc2
+{background-color: green;
+height: 300px;
+width: 400px;
+float:left;
+margin-left: 20px;
+text-align: center;
+margin:10px;
+}
+
+.bloc3
+{
+background-color: red;
+height: 300px;
+width: 400px;
+float:left;
+margin-left: 20px;
+margin:10px;
+}

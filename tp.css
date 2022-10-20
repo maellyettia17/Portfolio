@@ -1,0 +1,93 @@
+body
+{
+	font-family: verdana;
+}
+
+div
+{margin-left: 5px;
+	margin-top: 10px;
+	margin-right: 5px;
+	border-radius: 1em;
+
+
+}
+
+.bloc1
+{
+border: 3px solid pink;
+	border-radius: 8px;
+	height: 1150px;
+	width: 55%;
+	margin-left: 550px;
+	font-size: 15px;
+
+}
+
+.bloc2
+{
+    border: 3px solid blue;
+	border-radius: 4px;
+	height: 250px;
+	width: 96%;
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 4px;
+    text-align: left;
+
+
+}
+
+.bloc
+{float: right;
+
+}
+
+.bloc3
+{
+border: 3px solid green;
+	border-radius: 4px;
+	height: 250px;
+	width: 96%;
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 4px;
+    text-align: left;
+
+
+
+}
+
+.bloc4
+{
+border: 3px solid yellow;
+	border-radius: 4px;
+	height: 250px;
+	width: 96%;
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 4px;
+    text-align: left;
+
+
+
+}
+
+.bloc5
+{
+border: 3px solid red;
+	border-radius: 4px;
+	height: 280px;
+	width: 96%;
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 4px;
+    text-align: left;
+
+}
+
+p
+{font-style: oblique;}
