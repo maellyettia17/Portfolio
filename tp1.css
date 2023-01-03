@@ -1,0 +1,23 @@
+body
+{
+background-color: blueviolet;
+}
+
+button 
+{
+width: 210px;
+height: 200px;
+background-color: beige;
+border: 2px solid black;
+border-radius: 26px;
+color: white;
+font-size: 3em;
+
+}
+
+button:hover
+{
+background-color: cornflowerblue;
+color: black;
+}
+
