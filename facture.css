@@ -1,0 +1,44 @@
+.bloc1
+{
+background-color: darkcyan;
+height: 270px;
+width: 100%;
+
+}
+
+.bloc2
+{
+background-color: lightblue;
+height: 655px;
+text-align: right;
+width: 100%;
+}
+
+.bloc3
+{
+width: 100%; 
+border: 0 ;
+text-align: left;  
+}
+.bloc4
+{
+width: 100%;  
+text-align: right; 
+ 
+}
+
+
+.b1
+{
+text-align: left;
+float: right;
+
+}
+
+.bloc4
+{
+border: 1px solid (179, 179 ,179);
+border-spacing: 6px;
+width: 100%;
+
+}

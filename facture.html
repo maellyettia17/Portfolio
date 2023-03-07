@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="facture.css">
+<script src="facture.js"></script>
+</head>
+<body>
+<div class="bloc1"><h1>Nom de la compagnie </h1>
+    <h2>Adresse postale</h2>
+    <h3>Détails du contact</h3>
+
+<div class="bloc1" style="text-align: right;"><h1>FACTURE</h1>
+<h2>26/01/2023</h2>
+<h3>N° de la facture</h3>
+</div>
+</div>
+
+<div class="bloc2";><p>Conditions de paiement par exemple: dû dans 10 jours</p>
+<table class="bloc3">
+    <tr>
+<tr>
+<td><h2>Destinataire</h2><hr></td>
+<td><h2>Envoyez à</h2><hr></td>
+
+</tr>
+
+<td>Nom</td>
+<td>Nom</td>
+</tr>
+<tr>
+<td>Nom de la société</td>
+<td>Nom de la société</td>
+</tr>
+<tr>
+<td>Adresse postale</td>
+<td>Adresse postale</td>
+</tr>
+<tr>
+<td>Téléphone</td>
+<td>Téléphone</td>
+</tr>
+<tr>
+<td>Email</td>
+<td>Email</td>
+</tr>
+</table>
+
+</table>
+<br>
+<table class="bloc4" >
+</tr>
+<thead>
+<td>DESCRIPTION</td>
+<td>QUANTITE</td>
+<td>PRIX UNITAIRE</td>
+<td>TOTAL</td>
+</thead>
+</tr>
+
+
+<tr>
+<tbody>
+<td>Desc1</td>
+<td><input type="text" name="inputOne" id="inputOne"></td>  
+<td><input type="text" name="inputTwo" id="inputTwo"></td> 
+<td><input type="text" name="result" id="result"></td> 
+</tr>
+
+<tr>
+    <td>Desc2</td>
+    <td><input type="text" name="inputOne" id="inputOne"></td>  
+    <td><input type="text" name="inputTwo" id="inputTwo"></td> 
+    <td><input type="text" name="result" id="result"></td> 
+    </tr>
+
+<tr>
+    <td>Desc3</td>
+    <td><input type="text" name="inputOne" id="inputOne"></td>  
+    <td><input type="text" name="inputTwo" id="inputTwo"></td> 
+    <td><input type="text" name="result" id="result"></td> 
+    </tr>
+
+<tr>
+    <td>Desc4</td>
+    <td><input type="text" name="inputOne" id="inputOne"></td>  
+    <td><input type="text" name="inputTwo" id="inputTwo"></td> 
+    <td><input type="text" name="result" id="result"></td> 
+    </tr>
+</tbody>
+
+
+</table>
+
+<table class="b1">
+<tr>
+<tr>
+<td>SOUS-TOTAL</td>
+<td><input type="text" id="totaux" onclick="totaux()"></td>
+
+</tr>
+<td>REMISE</td>
+<td>10.00</td>
+</tr>
+
+<tr>
+<td>SOUS-TOTAL MOINS LES REMISES</td>
+<td>1317.6</td>
+</tr>
+
+<tr>
+<td>TAXE D'IMPOSITION</td>
+<td>10.00%</td>
+        
+</tr>
+<tr>
+<td>TAXE TOTALE</td>
+<td>146.4</td>
+</tr>
+
+<tr>
+<td>EXPEDITO,MANUTENTION</td>
+<td>5.00</td>
+</tr>
+
+<tr>
+<td><h5><hr> SOLDE DU</h5></td>
+<td><input type="text" name="inputTen"></td>
+</tr>
+</table>
+
+<br>
+
+</div>
+<button id="Calculer" onclick="Calculer()">Calculer</button>
+<button id="Ajouter une ligne" onclick="ajouterLigne()">Ajouter une ligne</button>
+<button id="Remplir automatiquement" onclick="remplir()">Remplir automatiquement</button>
+<button id="Annuler" onclick="annuler()">Annuler</button>
+
+
+
+
+    
+</body>
+</html>
